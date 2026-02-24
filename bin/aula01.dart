@@ -40,3 +40,9 @@ void main() {
 // void printarValor(String valor){
 //   print(valor);
 // }
+
+int somaEMultiplicacao(int a,int b){
+  final soma = a + b;
+  final mult = soma * 2;
+  return mult;
+}
